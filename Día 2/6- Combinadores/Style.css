@@ -1,0 +1,15 @@
+/* Combinador desendente */
+div p {
+  color: green;
+}
+/*Combinador de hijo directo */
+ol > li {
+  font-weight: bold;
+}
+/* Combinador de hermano adyacente */
+h2 ~ h3 {
+  background-color: lightskyblue;
+}
+div p[aling="left"]:hover {
+    background-color: gold;
+}
